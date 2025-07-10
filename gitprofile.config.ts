@@ -7,13 +7,67 @@ const CONFIG = {
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
+   * for example, your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
   base: '/',
-
+  projects: {
+    github: {
+      display: true, // Display GitHub projects?
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'     
+    },
+    external: {
+      header: 'My Projects',
+      projects: [
+        {
+          title: 'Service Co (Phase I and Phase II) ',
+          Description: 'Service Co is intended for the container exchange scheme, precisely for the Australian government.',
+        },
+        {
+          title: 'MyST Product',
+          Description:  'MyST Product – MyST (My Simple Tool) is a product for automation of middleware technologies installation and configuration process.',        
+        },
+        {
+          title: 'Version Fiber Services',
+          Description:  'Location management domain which works to get the demand points locations on Google maps where Verizon can provide their services based on the requirement',        
+        },
+         {
+          title: 'CGG Project',
+          Description: 'CGG Earth Library is a centralized web-based way of finding and accessing CGG data. It will integrate with multiple business lines to bring in 4 different data types for the user to interact with.',
+        },
+      ],
+    },
+    
+  },
+  seo: { title: 'Portfolio of sridevi ', description: '', imageURL: '' },
+  social: {
+    linkedin: 'https://www.linkedin.com/in/satya-sridevi-715947108/',
+    telegram: '스리데비',
+    phone: '+821098506552',
+    email: 'satyasridevi60@gmail.com',
+  },
+  resume: {
+    fileUrl:
+      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+  },
+  skills: [
+    'Java',
+    'Spring Boot', 
+    'Agile',
+     'Python', 
+     'Django Web Application',
+    'Maven',
+    'MySQL', 'SQL',
+    'PostgreSQL',
+    'Git',
+    'CSS',
+    'HTML',
+    'Hibernate', 
+    'JPA', 
+    'ORM tool' 
+  ],
   experiences: [
     {
-      company: 'Verizon Communication',
+      company: 'Verizon Communications',
       position: 'Software Engineer',
       from: 'June 2023',
       to: 'March 2024',
@@ -30,15 +84,15 @@ const CONFIG = {
       company: 'Rubicon X Red',
       position: 'Product Engineer',
       from: 'May 2016',
-      to: 'april 2020',
+      to: 'April 2020',
       companyLink: 'https://www.greatplacetowork.in/great/company/rubicon-red-software-india-private-limited',
     },
   ],
   certifications: [
     {
       name: 'Django Web Application',
-      body: 'Djnago',
-      year: 'Febuary 2024',
+      body: 'Django',
+      year: 'February 2024',
       link: 'https://www.coursera.org/account/accomplishments/verify/4NLMO3D3QBGM',
     },
      {
@@ -48,68 +102,15 @@ const CONFIG = {
       link: 'https://scaledagile.com/certification/',
     },
   ],
-  
-  projects: {
-    github: {
-      display: true, // Display GitHub projects?
-      mode: 'manual', // Mode can be: 'automatic' or 'manual'     
-    },
-    external: {
-      //header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
-      // projects: [
-      //   {
-      //     title: 'Project Name',
-      //     description:
-      //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      //     imageUrl:
-      //       'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-      //     link: 'https://example.com',
-      //   },
-      //   {
-      //     title: 'Project Name',
-      //     description:
-      //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      //     imageUrl:
-      //       'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-      //     link: 'https://example.com',
-      //   },
-      //],
-    },
-  },
-  seo: { title: 'Portfolio of Sridevi', description: '', imageURL: '' },
-  social: {
-    linkedin: 'https://www.linkedin.com/in/satya-sridevi-715947108/',
-    telegram: '스리데비',
-    phone: '+821098506552',
-    email: 'satyasridevi60@gmail.com',
-  },
-  resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
-  },
-  skills: [
-    'Java',
-    'Spring Boot', 
-    'Agile' , 
-    'Django Web Application' ,
-    'Maven',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'CSS',
-    'HTML'
-  ],
-  
   educations: [
     {
-      institution: 'Aurora technology and Research Institution',
+      institution: 'Aurora Technology and Research Institution',
       degree: 'Bachelor Degree',
       from: '2011',
       to: '2015',
     },
   ],
-  // Display articles from your medium or dev account. (Optional)
+  // Display articles from your Medium or dev account. (Optional)
  
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
