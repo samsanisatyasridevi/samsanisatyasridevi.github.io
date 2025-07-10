@@ -10,6 +10,45 @@ const CONFIG = {
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
   base: '/',
+
+  experiences: [
+    {
+      company: 'Verizon Communication',
+      position: 'Software Engineer',
+      from: 'June 2023',
+      to: 'March 2024',
+      companyLink: 'https://www.verizon.com/',
+    },
+    {
+      company: 'Cognizant',
+      position: 'Software Engineer',
+      from: 'July 2020',
+      to: 'June 2023',
+      companyLink: 'https://www.cognizant.com/us/en',
+    },
+    {
+      company: 'Rubicon X Red',
+      position: 'Product Engineer',
+      from: 'May 2016',
+      to: 'april 2020',
+      companyLink: 'https://www.greatplacetowork.in/great/company/rubicon-red-software-india-private-limited',
+    },
+  ],
+  certifications: [
+    {
+      name: 'Django Web Application',
+      body: 'Djnago',
+      year: 'Febuary 2024',
+      link: 'https://www.coursera.org/account/accomplishments/verify/4NLMO3D3QBGM',
+    },
+     {
+      name: 'Safe 6 scrum master ',
+      body: 'Scaled agile framework',
+      year: 'November 2023',
+      link: 'https://scaledagile.com/certification/',
+    },
+  ],
+  
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -61,43 +100,7 @@ const CONFIG = {
     'CSS',
     'HTML'
   ],
-  experiences: [
-    {
-      company: 'Verizon Communication',
-      position: 'Software Engineer',
-      from: 'June 2023',
-      to: 'March 2024',
-      companyLink: 'https://www.verizon.com/',
-    },
-    {
-      company: 'Cognizant',
-      position: 'Software Engineer',
-      from: 'July 2020',
-      to: 'June 2023',
-      companyLink: 'https://www.cognizant.com/us/en',
-    },
-    {
-      company: 'Rubicon X Red',
-      position: 'Product Engineer',
-      from: 'May 2016',
-      to: 'april 2020',
-      companyLink: 'https://www.greatplacetowork.in/great/company/rubicon-red-software-india-private-limited',
-    },
-  ],
-  certifications: [
-    {
-      name: 'Django Web Application',
-      body: 'Djnago',
-      year: 'Febuary 2024',
-      link: 'https://www.coursera.org/account/accomplishments/verify/4NLMO3D3QBGM',
-    },
-     {
-      name: 'Safe 6 scrum master ',
-      body: 'Scaled agile framework',
-      year: 'November 2023',
-      link: 'https://scaledagile.com/certification/',
-    },
-  ],
+  
   educations: [
     {
       institution: 'Aurora technology and Research Institution',
