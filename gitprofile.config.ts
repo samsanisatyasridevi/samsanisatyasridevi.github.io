@@ -36,6 +36,10 @@ const CONFIG = {
         },
       ],
     },
+
+    experience :{
+      
+    }
     
   },
   seo: { title: 'Portfolio of sridevi ', description: '', imageURL: '' },
