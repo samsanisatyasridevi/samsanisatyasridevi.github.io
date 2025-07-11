@@ -13,7 +13,7 @@ const CONFIG = {
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      mode: 'manual', // Mode can be: 'automatic' or 'manual'     
+      mode: 'automatic', // Mode can be: 'automatic' or 'manual'     
     },
     external: {
       header: 'My Projects',
@@ -32,11 +32,11 @@ const CONFIG = {
         },
          {
           title: 'CGG Project',
-          Description: 'CGG Earth Library is a centralized web-based way of finding and accessing CGG data. It will integrate with multiple business lines to bring in 4 different data types for the user to interact with.',
+          description: 'CGG Earth Library is a centralized web-based way of finding and accessing CGG data. It will integrate with multiple business lines to bring in 4 different data types for the user to interact with.',
         },
         {
-          title: 'Fiber Management System',
-          Description: '(FMS) manages optical fiber connections from outside of fiber rack to the fiber routers. Fiber-optic cable duct containing many fibers comes from far sites and terminates on the FMS using splicing technology',
+          title : 'Fiber Management System',
+          description: '(FMS) manages optical fiber connections from outside of fiber rack to the fiber routers. Fiber-optic cable duct containing many fibers comes from far sites and terminates on the FMS using splicing technology',
         }
       ],
     }, 
@@ -73,32 +73,35 @@ const CONFIG = {
   ],
 
 
-  external: {
-  header: 'Experience',
-  experiences: [
-    {
-      company: 'Verizon Communications',
-      position: 'Software Engineer',
-      from: 'June 2023',
-      to: 'March 2024',
-      companyLink: 'https://www.verizon.com/',
+  experiences: {   
+    external: {
+      header: 'Experience',
+      experiences: [
+        {
+          company: 'Verizon Communication',
+          position: 'Software Engineer',
+          from: 'June 2023',
+          to: 'March 2024',
+          companyLink: 'https://www.verizon.com/',
+        },
+        {
+          company: 'Cognizant',
+          position: 'Software Engineer',
+          from: 'July 2020',
+          to: 'June 2023',
+          companyLink: 'https://www.cognizant.com/us/en',
+        },
+        {
+          company: 'Rubicon X Red',
+          position: 'Product Engineer',
+          from: 'May 2016',
+          to: 'april 2020',
+          companyLink: 'https://www.greatplacetowork.in/great/company/rubicon-red-software-india-private-limited',
+        },
+      ],
     },
-    {
-      company: 'Cognizant',
-      position: 'Software Engineer',
-      from: 'July 2020',
-      to: 'June 2023',
-      companyLink: 'https://www.cognizant.com/us/en',
-    },
-    {
-      company: 'Rubicon X Red',
-      position: 'Product Engineer',
-      from: 'May 2016',
-      to: 'April 2020',
-      companyLink: 'https://www.greatplacetowork.in/great/company/rubicon-red-software-india-private-limited',
-    },
-  ],
-},
+  },
+  
 
   certifications: [
     {
