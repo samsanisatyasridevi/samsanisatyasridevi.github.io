@@ -72,8 +72,7 @@ const CONFIG = {
     'Hibernate', 'JPA' , 'ORM tool' 
   ],
 
-  external: {
-      header: 'experience',
+  
   experiences: [
     {
       company: 'Verizon Communication',
@@ -81,6 +80,7 @@ const CONFIG = {
       from: 'June 2023',
       to: 'March 2024',
       companyLink: 'https://www.verizon.com/',
+      position: 'right',
     },
     {
       company: 'Cognizant',
@@ -88,6 +88,7 @@ const CONFIG = {
       from: 'July 2020',
       to: 'June 2023',
       companyLink: 'https://www.cognizant.com/us/en',
+      position: 'right',
     },
     {
       company: 'Rubicon X Red',
@@ -95,9 +96,10 @@ const CONFIG = {
       from: 'May 2016',
       to: 'april 2020',
       companyLink: 'https://www.greatplacetowork.in/great/company/rubicon-red-software-india-private-limited',
+      position: 'right',
     },
   ],
-},
+
   certifications: [
     {
       name: 'Django Web Application',
