@@ -73,9 +73,7 @@ const CONFIG = {
   ],
 
 
-  experiences: {   
-    external: {
-      header: 'Experience',
+ 
       experiences: [
         {
           company: 'Verizon Communication',
@@ -99,8 +97,7 @@ const CONFIG = {
           companyLink: 'https://www.greatplacetowork.in/great/company/rubicon-red-software-india-private-limited',
         },
       ],
-    },
-  },
+    
   
 
   certifications: [
