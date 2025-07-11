@@ -7,41 +7,44 @@ const CONFIG = {
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example, your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
+   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
   base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      mode: 'manual', // Mode can be: 'automatic' or 'manual'     
+      mode: 'automatic', // Mode can be: 'automatic' or 'manual'     
     },
     external: {
       header: 'My Projects',
       projects: [
         {
           title: 'Service Co (Phase I and Phase II) ',
-          Description: 'Service Co is intended for the container exchange scheme, precisely for the Australian government.',
+          description: 'Service Co is intended for the container exchange scheme precisely for the Australian government.',
         },
         {
           title: 'MyST Product',
-          Description:  'MyST Product – MyST (My Simple Tool) is a product for automation of middleware technologies installation and configuration process.',        
+          description:  'MyST Product – MyST (My Simple Tool) is a product for automation of middleware technologies installation and configuration process.',        
         },
         {
           title: 'Version Fiber Services',
-          Description:  'Location management domain which works to get the demand points locations on Google maps where Verizon can provide their services based on the requirement',        
+          description:  'Location management domain which works to get the demand points locations on Goggle maps where Verizon can provide their services based on requirement',        
         },
          {
           title: 'CGG Project',
-          Description: 'CGG Earth Library is a centralized web-based way of finding and accessing CGG data. It will integrate with multiple business lines to bring in 4 different data types for the user to interact with.',
+          description: 'CGG Earth Library is a centralized web-based way of finding and accessing CGG data. It will integrate with multiple business lines to bring in 4 different data types for the user to interact with.',
         },
+        {
+          title : 'Fiber Management System',
+          description: '(FMS) manages optical fiber connections from outside of fiber rack to the fiber routers. Fiber-optic cable duct containing many fibers comes from far sites and terminates on the FMS using splicing technology',
+        }
       ],
-    },
-
-    experience :{
-      
-    }
-    
+    }, 
   },
+
+
+
+
   seo: { title: 'Portfolio of sridevi ', description: '', imageURL: '' },
   social: {
     linkedin: 'https://www.linkedin.com/in/satya-sridevi-715947108/',
@@ -51,27 +54,29 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      //'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      ''
   },
   skills: [
     'Java',
     'Spring Boot', 
-    'Agile',
+    'Agile' ,
      'Python', 
-     'Django Web Application',
+     'Django Web Application' ,
     'Maven',
     'MySQL', 'SQL',
     'PostgreSQL',
     'Git',
     'CSS',
     'HTML',
-    'Hibernate', 
-    'JPA', 
-    'ORM tool' 
+    'Hibernate', 'JPA' , 'ORM tool' 
   ],
+
+  external: {
+      header: 'experience',
   experiences: [
     {
-      company: 'Verizon Communications',
+      company: 'Verizon Communication',
       position: 'Software Engineer',
       from: 'June 2023',
       to: 'March 2024',
@@ -88,15 +93,16 @@ const CONFIG = {
       company: 'Rubicon X Red',
       position: 'Product Engineer',
       from: 'May 2016',
-      to: 'April 2020',
+      to: 'april 2020',
       companyLink: 'https://www.greatplacetowork.in/great/company/rubicon-red-software-india-private-limited',
     },
   ],
+},
   certifications: [
     {
       name: 'Django Web Application',
-      body: 'Django',
-      year: 'February 2024',
+      body: 'Djnago',
+      year: 'Febuary 2024',
       link: 'https://www.coursera.org/account/accomplishments/verify/4NLMO3D3QBGM',
     },
      {
@@ -108,13 +114,13 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Aurora Technology and Research Institution',
+      institution: 'Aurora technology and Research Institution',
       degree: 'Bachelor Degree',
       from: '2011',
       to: '2015',
     },
   ],
-  // Display articles from your Medium or dev account. (Optional)
+  // Display articles from your medium or dev account. (Optional)
  
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
